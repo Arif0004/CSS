@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 1140px;
+   margin: 0 auto;
+   border:1px solid #ccc;
+}
+
+section{
+    padding:45px 0;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.border{
+    border: 1px solid red;
+}
+.col50{
+    flex-basis: 49%;
+}
+.col33{
+    flex-basis: 32%;
+}
+.col25{
+    flex-basis: 25%;
+}

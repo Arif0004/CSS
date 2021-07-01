@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 1140px;
+   margin: 0 auto;
+   border:1px solid #ccc;
+}
+
+.box{
+    height: 100px;
+    width: 150px;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color:green;
+}
+.box3{
+    background-color:blue;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.border{
+    border: 1px solid red;
+}
+.col50{
+    flex-basis: 49%;
+}
+.col33{
+    flex-basis: 32%;
+}
+.col25{
+    flex-basis: 25%;
+}

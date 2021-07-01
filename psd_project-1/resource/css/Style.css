@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 1140px;
+   margin: 0 auto;
+  
+}
+
+section{
+    padding:45px 0;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+
+
+body{
+    font-family: 'Roboto Slab', serif;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.border{
+    border: 1px solid red;
+}
+.col50{
+    flex-basis: 49%;
+}
+.col33{
+    flex-basis: 32%;
+}
+.col25{
+    flex-basis: 25%;
+}
+
+/* navbar */
+.ourNav{
+    padding: 20px 0;
+}
+
+/* hero section */
+#hero_section{
+    background-image: url('../images/hero.png') ;
+    background-size: cover;
+    background-position: top-center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content_box{
+    padding:50px ;
+    text-align: center;
+   
+}
+.img_box{
+    margin-top: 25px;
+}
+.hero_btn{
+    padding: 10px 30px;
+    border-radius:25px ;
+    
+}
+
+/*third section*/
+
+.btn-light{
+    padding: 10px 30px;
+    border-radius:25px ;
+    
+}
+
+/* 4th section*/
+
+.col1 .btn{
+    padding: 10px 100px;
+    border-radius:25px ;
+    color: red;
+    position: relative;
+    text-align: left;
+
+}
+
+.col2 .btn{
+    padding: 10px 30px;
+    border-radius:25px ;
+    color: red;
+    position:absolute;
+    text-align: left;
+
+}
+
+.fourth_section{
+    background-image: url('../images/hero.png') ;
+    background-size: cover;
+    background-position: top-center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
